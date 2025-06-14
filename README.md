@@ -40,14 +40,7 @@ Random Forest	0.836	0.649	0.300	0.410	0.336
 7.	Classification Cutoff
 After experimenting with probability thresholds between 0.3 and 0.5, a cutoff of 0.4 was selected as it provided the best trade-off between increasing recall (catching more actual defaulters) and keeping precision at a practical level. This is crucial in credit risk where false negatives—missed defaulters—pose a higher financial threat than false positives.
 
-8.	Business Implications
-•	The model can help identify customers who are at higher risk of defaulting in the next       month, which is useful for taking early action.
-•	By understanding the repayment patterns and credit behaviour, banks can decide whether to reduce credit exposure or follow up with reminders for repayment.
-•	Customers with high credit limits and weak repayment behaviour can be flagged for credit limit adjustments or manual review.
-•	Knowing that younger individuals and certain education levels show higher default trends, personalized awareness or financial planning advice can be offered to these groups.
-•	Since the model is based on a decision tree, it’s easier to interpret and explain, which helps when presenting results to managers or non-technical stakeholders.
-
-9.	Summary
+8.	Summary
 •	From the visual analysis of customer segments, we observed that:
 o	Customers aged 41–60 had the highest average credit limits, while younger users (21–30) showed a higher count of defaults.
 o	Males and married individuals received higher credit limits but also exhibited marginally higher default volumes.
